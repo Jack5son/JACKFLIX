@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>JACKFlix</title>
+    <link href="{% static 'css/principal.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'css/menu.css' %}" rel="stylesheet" type="text/css">
+</head>
+<body>
+    {% include "../menu.html" %}
+<main>
+    <div class="logo-container">
+        <img src="{% static 'logo.png' %}" alt="JACKFlix Logo" class="logo">
+    </div>
+    <div class="welcome-text">
+        <p>Bem-vindo ao seu catálogo pessoal de filmes e séries!</p>
+        <p>Organize seus favoritos por gênero e nunca mais perca aquele filme ou série que você adorou.</p>
+    </div>
+</main>
+
+</body>
+</html>

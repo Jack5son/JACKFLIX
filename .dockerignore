@@ -1,0 +1,70 @@
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de desenvolvimento
+*.pyc
+*.pyo
+*.pyd
+__pycache__
+*.so
+.Python
+env
+pip-log.txt
+pip-delete-this-directory.txt
+.tox
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git
+.mypy_cache
+.pytest_cache
+.hypothesis
+
+# Ambientes virtuais
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Arquivos temporários
+*.tmp
+*.temp
+
+# Logs
+*.log
+
+# Banco de dados (opcional - remova se quiser incluir dados de exemplo)
+# db.sqlite3
+
+# Arquivos de mídia (opcional - remova se quiser incluir)
+# media/
+
+# Arquivos estáticos coletados
+staticfiles/
+
+# Docker
+Dockerfile
+.dockerignore
+docker-compose*.yml
+
+# Documentação
+README.md
+*.md
+
+# Arquivos de configuração local
+.env
+.env.local
+.env.*.local 
